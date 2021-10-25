@@ -1,0 +1,187 @@
+@media screen and (max-width: 1024px)
+{
+	.header .nav
+	{
+		display: flex;
+		align-items: center;
+		flex-flow: row nowrap;
+		justify-content: center;
+
+		width: 100%;
+	}
+	.header .container
+	{
+		justify-content: center;
+	}
+	.table
+	{
+		padding: 0px;
+	}
+	.table > div
+	{
+		padding: 10px 25px;
+	}
+	.section_three .container
+	{
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.step p
+	{
+		font-size: 16px;
+
+		min-height: 150px;
+		padding: 0 15px;
+		padding-top: 25px;
+	}
+	.step-icon
+	{
+		width: 95px;
+		height: 95px;
+	}
+}
+
+@media screen and (max-width: 958px)
+{
+	.items
+	{
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (max-width: 640px)
+{
+	.header a
+	{
+		display: none;
+	}
+	.section_one
+	{
+		padding-top: 50px;
+		padding-bottom: 65px;
+	}
+	.buttons
+	{
+		display: flex;
+		align-items: center;
+		flex-flow: column nowrap;
+	}
+	.buttons a, .buttons button
+	{
+		min-width: 320px;
+	}
+	.section_one h1
+	{
+		font-size: 57px;
+	}
+	.section_one hr
+	{
+		max-width: 320px;
+		margin: 25px auto;
+	}
+	.section_one h2
+	{
+		font-size: 24px;
+	}
+	.section_one p
+	{
+		font-size: 18px;
+	}
+	.section_two p:first-child, .section_three .container > bp:first-child
+	{
+		font-size: 28px;
+	}
+	.table
+	{
+		overflow: auto;
+
+		width: 100%;
+
+		-webkit-overflow-scrolling: touch;
+	}
+	.items
+	{
+		grid-template-columns: 1fr;
+	}
+	.item
+	{
+		margin: 10px 0;
+	}
+	.categories
+	{
+		flex-flow: column nowrap;
+	}
+	.categories div
+	{
+		min-width: 320px;
+	}
+	.popup-content
+	{
+		width: 100%;
+		min-width: auto;
+	}
+	.popup img
+	{
+		max-width: 120px;
+	}
+	.popup
+	{
+		width: 100%;
+	}
+	.steps
+	{
+		display: grid;
+
+		grid-template-columns: 1fr 1fr;
+	}
+	.step p
+	{
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+	.section_five .container
+	{
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+
+@media screen and (max-width: 425px)
+{
+	.section_one h1
+	{
+		font-size: 48px;
+	}
+	.section_one hr
+	{
+		margin: 25px auto;
+	}
+	.section_one h2
+	{
+		font-size: 18px;
+	}
+	.section_one p
+	{
+		font-size: 15px;
+	}
+	.section_one p strong
+	{
+		font-size: 32px;
+	}
+	.section_two p
+	{
+		font-size: 14px;
+	}
+	.categories div, .buttons a, .buttons button
+	{
+		min-width: 100%;
+	}
+	.popup img
+	{
+		display: none;
+	}
+	.steps
+	{
+		grid-template-columns: 1fr;
+	}
+}
